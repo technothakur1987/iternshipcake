@@ -1,0 +1,78 @@
+@media (max-width: 576px) { 
+    html{
+        font-size: larger;
+    }
+    .content1 {
+      position: absolute;
+      top: 35vh;
+      left: 10%;
+      
+      
+    }
+    .littlemore{
+    
+    
+    
+    }
+    
+    
+
+    .centerdiv{
+        background-color: #a5522ae3;
+      padding:5rem 1rem;
+        color: white;
+
+    }
+    .imgcell{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myimage{
+        height: 10rem;
+        border-radius: 50%;
+    }
+
+    .editlineheigt{
+      line-height: 0.9rem;
+    }
+
+    .featuredproducts{
+        min-height: 100vh!important;
+        
+       
+       
+        
+       
+       
+        
+    }
+
+    .carousel-item img{
+     height: 80vh!important;
+      object-fit: cover!important;
+      border-radius: 10px!important;
+      
+    }
+    
+    .ordernowbtn:hover{
+      cursor: pointer;
+      color: yellow;
+      background-color: black;
+      transition: 0.3s;
+
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }

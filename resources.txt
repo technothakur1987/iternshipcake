@@ -1,0 +1,12 @@
+
+**thiswebsite is made with embedded bootstrap 5 and custom classes
+ and hence made optimized also with a favicon also . 
+
+Its a a sample bakery website with header and footer fixed at top and bottom
+home page consiiste of main banner section including a video of our bakery
+ with clearly initiating our market existence..
+second section consiiste of little knowldge about ourself followed by by 
+our featured products and some testinomials by our customer ..
+With this there a buttom call me ,
+
+Footer is been fixed at the bottom 

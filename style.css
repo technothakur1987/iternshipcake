@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/*font-family: 'Bree Serif', serif;*/
+
+
+.indexBody{
+   
+    
+    background-color: black;
+    font-family: 'Bree Serif', serif;
+}
+
+#mainNavigation a {
+    font-family: 'Cabin', sans-serif;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.4);
+  }
+   
+  .dropdown-menu {
+    background:rgba(0,0,0,0.4);
+  }
+  a.dropdown-toggle {
+    color:#dfdfdf !important
+  }
+  a.dropdown-item:hover {
+    background:rgba(0,0,0,0.4) !important;
+  }
+  .nav-item a{
+    color:#dfdfdf;
+  }
+  .nav-item a:hover {
+    color:#fff
+  }
+  .nav-item{
+    min-width:12vw;
+  }
+  #mainNavigation {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:123;
+    padding-bottom:120px;
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  }
+  #navbarNavDropdown.collapsing .navbar-nav,
+  #navbarNavDropdown.show .navbar-nav{
+    background:rgba(0,0,0,0.4)!important;
+    padding:12px;
+  }
+
+
+  /*video banner*/
+  .mainvideobanner{
+    height: 100vh;
+   
+  }
+
+  
+  #myVideo {
+    
+      
+      position: absolute;
+      top:0;
+      left:0;
+      height:100vh;
+      width: 100%;
+      object-fit: cover;
+      margin: 0;
+      padding: 0;
+   
+  }
+
+  .content{
+    position: absolute;
+    bottom: 6vh;
+    left: 50%;
+  }
+  .content1 {
+    position: absolute;
+    top: 70vh;
+    left: 10%;
+    opacity: 0.8;
+    
+    
+  }
+  
+  .content a {
+   color: white;
+  }
+
+  .fa, .fa-angle-down{
+    font-size: 2rem;
+  }
+
+
+  /*carousel*/
+  .littlemore{
+    
+    
+    
+    }
+    
+    
+
+    .centerdiv{
+        background-color: #a5522ae3;
+       padding:2rem 5rem;
+        color: white;
+
+    }
+
+    .myimage{
+        height: 15rem;
+        border-radius: 50%;
+    }
+
+    .editlineheigt{
+      line-height: 0.5rem;
+    }
+
+
+    /*featured products*/
+
+    .featuredproducts{
+      min-height: fit-content;
+        
+       
+       
+        
+       
+       
+        
+        }
+
+        .carousel-item img{
+         max-height: 70vh!important;
+          object-fit: cover!important;
+          border-radius: 10px!important;
+          
+        }
+        
+        .ordernowbtn:hover{
+          cursor: pointer;
+          color: yellow;
+          background-color: black;
+          transition: 0.3s;
+
+        }
+        .testimonials .testdiv{
+          background-color: #a5522ae3;
+          
+          color: white;
+          
+        }
+        .testimonials, .testdiv {
+          border-radius: 20px;
+        }
+
+
+
+
+        /*footer*/
+        .footer{
+          position: fixed;
+          bottom: 0;
+          
+          background-color: #421802e3;
+          
+          color: white;
+          text-align: center;
+         
+        }
+        .callme{
+          position: absolute;
+          right: 1rem;
+          top: -2rem;
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: yellow;
+          color: green;
+        }
+        .callme a{
+          
+          text-decoration: none;
+        }
+
+        
+/*custom scroll bar*/
+
+        /* width */
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ce9b11;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #421802e3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ad4a18e3;
+  cursor:pointer;
+}
+
+
+
+.aboutmain,.contactmain,.blogmain,.policymain,.consumersectionmain,.productmain{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+        
